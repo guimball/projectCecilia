@@ -1,0 +1,40 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #C5FBFF;
+  font-family: 'Poppins', sans-serif;
+}
+
+h3, h4, p, .header, .gatin{
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  justify-content: space-evenly;  
+  max-width: 100%;
+}
+
+.tiktok, .zapzap, .insta, .youtube{
+  transition: 0.3s ease-in-out;
+  
+}
+.tiktok:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.zapzap:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.insta:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.youtube:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
